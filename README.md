@@ -3,3 +3,9 @@ Aura
 
 # Password
 27500727827500727
+
+# URL SUPABASE
+https://ldwivfepibliuararpjv.supabase.co/rest/v1/
+
+# SECRET SERVICE ROLE
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxkd2l2ZmVwaWJsaXVhcmFycGp2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODAwNjI2MTUsImV4cCI6MjA5NTYzODYxNX0.yp8oAjgYxSrcvw7qDXzhSXGPnL6glJKC4gIv2GbEU38
