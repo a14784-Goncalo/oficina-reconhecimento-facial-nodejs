@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.static("public"));
 app.use('/models', express.static('models')); 
 
-const supabase = createClient("https://ldwivfepibliuararpjv.supabase.co", "-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxkd2l2ZmVwaWJsaXVhcmFycGp2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODAwNjI2MTUsImV4cCI6MjA5NTYzODYxNX0.yp8oAjgYxSrcvw7qDXzhSXGPnL6glJKC4gIv2GbEU38");
+const supabase = createClient("https://ldwivfepibliuararpjv.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxkd2l2ZmVwaWJsaXVhcmFycGp2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODAwNjI2MTUsImV4cCI6MjA5NTYzODYxNX0.yp8oAjgYxSrcvw7qDXzhSXGPnL6glJKC4gIv2GbEU38");
 const storage = multer.memoryStorage();
 const upload = multer({ storage });
 
